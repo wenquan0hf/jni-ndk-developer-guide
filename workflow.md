@@ -25,9 +25,10 @@ JNI 开发流程主要分为以下6步：
 
 第一步，新建一个 HelloWorld.java 源文件
 
-public class HelloWorld {
+```
+  public class HelloWorld {
 
-	public static native String sayHello(String name); 	// 1.声明这是一个native函数，由本地代码实现
+	public static native String sayHello(String name); // 1.声明这是一个native函数，由本地代码实现
 
 	public static void main(String[] args) {
 		String text = sayHello("yangxin");	// 3.调用本地函数
@@ -39,3 +40,4 @@ public class HelloWorld {
 	}
 
 }
+```
