@@ -55,7 +55,7 @@ NDK 这个名字是随便取的，为了方面以后使用方便，选个简短�
 
 ### 在 eclipse 中集成 c/c++ 开发环境
 
-- 装 Eclipse 的 C/C++ 环境插件： CDT ，这里选择在线安装。　　首先登录 http://www.eclipse.org/cdt/downloads.php ，找到对应你 Eclipse 版本的 CDT 插件 的在线安装地址。
+- 装 Eclipse 的 C/C++ 环境插件： CDT ，这里选择在线安装。首先登录 http://www.eclipse.org/cdt/downloads.php ，找到对应你 Eclipse 版本的 CDT 插件 的在线安装地址。
 
 - 然后点 Help 菜单，找到 Install New Software 菜单
 
