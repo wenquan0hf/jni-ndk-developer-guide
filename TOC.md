@@ -12,7 +12,8 @@
   - [JNI 局部引用、全局引用和弱全局引用](recommend.md)
   - [Android NDK 简介](ndkoverview.md)
   - [Android NDK 开发环境](envirment.md)
-  - [Android JNI 局部引用表溢出](spillover.md)
-  - [Android NDK 开发 Crash 错误定位](crash.md)
+  - [Android NDK 开发自己的 NDK 程序](ndk.md)
+  
+  
   
   
