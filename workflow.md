@@ -26,9 +26,13 @@ JNI 开发流程主要分为以下6步：
 第一步，新建一个 HelloWorld.java 源文件
 
 ```
+<<<<<<< HEAD
 public class HelloWorld {
+=======
+  public class HelloWorld {
+>>>>>>> origin/master
 
-	public static native String sayHello(String name); 	// 1.声明这是一个native函数，由本地代码实现
+	public static native String sayHello(String name); // 1.声明这是一个native函数，由本地代码实现
 
 	public static void main(String[] args) {
 		String text = sayHello("yangxin");	// 3.调用本地函数
@@ -41,6 +45,7 @@ public class HelloWorld {
 
 }
 ```
+<<<<<<< HEAD
 
 第二步，用 javac 命令将`.java`源文件编译成`.class`字节码文件
 
@@ -251,3 +256,5 @@ yangxin-MacBook-Pro:JNILearn yangxin$ java -Djava.library.path=/Users/yangxin/De
 Java Str:yangxin  
 hello yangxin  
 ```
+=======
+>>>>>>> origin/master
